@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ยินดีต้อนรับ | ร้านทอง</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <img src="images/1649.jpg" alt="ร้านทอง" class="hero-image" />
+    <div class="hero-overlay">
+      <h1>ยินดีต้อนรับ</h1>
+      <p>ยินดีต้อนรับสู่หน้าร้าน - ชมสินค้าและโปรโมชั่นล่าสุด</p>
+      <div class="buttons">
+        <a class="btn" href="#gallery">ดูสินค้า</a>
+        <a class="btn ghost" href="#contact">ติดต่อเรา</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="gallery" class="gallery-section">
+      <h2>สินค้าตัวอย่าง</h2>
+      <p class="lead">ภาพตัวอย่างสร้อยและแบบต่าง ๆ จากร้าน</p>
+      <div class="gallery">
+        <figure class="card"><img src="images/1641_0.jpg" alt="ทอง" /><figcaption>สร้อยทอง</figcaption></figure>
+        <figure class="card"><img src="images/1645_0.jpg" alt="ทอง" /><figcaption>สร้อยทอง</figcaption></figure>
+        <figure class="card"><img src="images/1647_0.jpg" alt="ทอง" /><figcaption>สร้อยทอง</figcaption></figure>
+        <figure class="card"><img src="images/1640_0.jpg" alt="ทอง" /><figcaption>สร้อยทอง</figcaption></figure>
+        <figure class="card"><img src="images/1642_0.jpg" alt="ทอง" /><figcaption>สร้อยทอง</figcaption></figure>
+        <figure class="card"><img src="images/1643_0.jpg" alt="ทอง" /><figcaption>สร้อยทอง</figcaption></figure>
+        <figure class="card"><img src="images/1644_0.jpg" alt="ทอง" /><figcaption>สร้อยทอง</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>ติดต่อเรา</h2>
+      <p>กรุณาแก้ไขข้อมูลที่นี่เป็นข้อมูลร้านของคุณ เช่น เบอร์โทร, Facebook หรือ Line ID</p>
+      <ul class="contact-list">
+        <li>โทร: 08x-xxx-xxxx</li>
+        <li>Facebook: yourpage</li>
+        <li>Line: @yourline</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> ร้านทอง - สร้างด้วยความตั้งใจ</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
